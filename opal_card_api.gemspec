@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
 	spec.name        = 'opal_card_api'
 	spec.version     = OpalCardApi::VERSION
 	spec.authors     = ['cyclotron3k']
-	spec.email       = ['aidan.samuel@gmailcom']
+	spec.email       = ['aidan.samuel@gmail.com']
 
 	spec.summary     = 'A screen-scraper to retrieve your cards and transactions from the Opal Card website'
 	spec.homepage    = 'https://github.com/cyclotron3k/opal_card_api'
