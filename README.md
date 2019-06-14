@@ -6,6 +6,8 @@ Do you live in Sydney? Do you have an Opal card and want to scrape your data? Th
 
 It caches aggressively to minimize the number of "api calls".
 
+This is a screen-scraping gem, so it is liable to stop working at any moment.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -57,6 +59,7 @@ Typically you'll only have one card, and by calling `transactions` you can get a
 ```ruby
 transactions = client.transactions
 ```
+
 Now, because we're screen-scraping behind the scenes, and because we probably only want the most recent transactions, `transactions` returns an `Enumerator` that only requests as many pages of transactions as required. Care must be taken to avoid downloading your entire transaction history (unless that is what you want to do).
 ```ruby
 # GOOD
@@ -101,10 +104,10 @@ If you have more than one card you'll probably want to specify which card to ret
 To retrieve transactions for other cards, you must specify which one
 ```ruby
 # By specifying the ID of the card:
-client.transactions("3083857629546364")
+client.transactions('3083857629546364')
 
 # By specifying then name of the card:
-client.transactions("Lobster")
+client.transactions('Lobster')
 
 # By specifying the index of the card:
 client.transactions(3) # your fourth card
