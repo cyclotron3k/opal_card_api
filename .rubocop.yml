@@ -1,0 +1,45 @@
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: start_of_line
+Layout/IndentationWidth:
+  Width: 1
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
+Layout/SpaceAroundOperators:
+  Enabled: false
+Layout/Tab:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Max: 64
+Metrics/ClassLength:
+  Max: 256
+Metrics/LineLength:
+  Max: 200
+Metrics/MethodLength:
+  Max: 128
+Style/AndOr:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.3
+
+
+

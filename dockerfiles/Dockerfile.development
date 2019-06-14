@@ -1,0 +1,24 @@
+FROM ruby:2.6
+LABEL description="A useful container for development and testing"
+LABEL build="docker build -f ./dockerfiles/Dockerfile.development . -t opal-card-api:latest"
+LABEL usage="docker run -it --rm -v $PWD:/srv opal-card-api:latest"
+
+VOLUME /srv
+
+ENV CLANG UTF8
+ENV TZ Australia/Sydney
+ENV EDITOR vim
+
+RUN apt-get -q  update && \
+	apt-get -yq install dialog vim tree less && \
+	apt-get -yq --purge autoremove && \
+	apt-get -q  clean
+
+COPY Gemfile* *.gemspec /tmp/
+COPY lib/opal_card_api/version.rb /tmp/lib/opal_card_api/version.rb
+
+WORKDIR /tmp
+RUN bundle install
+
+WORKDIR /srv
+CMD bundle exec rake console

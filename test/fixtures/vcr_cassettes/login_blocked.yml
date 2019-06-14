@@ -1,0 +1,146 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.opal.com.au/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Opal Card API Client (cyclotron3k)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.opal.com.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Jun 2019 07:57:34 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Language:
+      - en-US
+      X-Responsetime:
+      - D=8053 microseconds to serve this request.
+      X-Id:
+      - '1'
+      Set-Cookie:
+      - JSESSIONID=B99D7FB19A09559CB6732D90DEADBEEF.cws03; Path=/; HttpOnly;Secure
+      - incap_ses_436_565178=+N1zbSc5jlIOK3k8EP0MBu0BAl0AAAAAl6RpZMimU+RF+OsbIm7C8w==;
+        path=/; Domain=.opal.com.au
+      - visid_incap_565178=W9CpfTfAQZSHfXrwY4HBme0BAl0AAAAAQUIPAAAAAACXO496mO8Ivar4johdSEPb;
+        expires=Thu, 11 Jun 2020 08:34:56 GMT; path=/; Domain=.opal.com.au
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Keep-Alive:
+      - timeout=5, max=92
+      Connection:
+      - Keep-Alive
+      Content-Type:
+      - text/html;charset=UTF-8
+      X-Iinfo:
+      - 9-82754611-82751606 PNNN RT(1560412653932 17) q(0 0 0 0) r(0 0) U12
+      X-Cdn:
+      - Incapsula
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version:
+  recorded_at: Thu, 13 Jun 2019 07:57:34 GMT
+- request:
+    method: post
+    uri: https://www.opal.com.au/login/registeredUserUsernameAndPasswordLogin
+    body:
+      encoding: UTF-8
+      string: h_username=test&h_password=test&attempt=&CSRFToken=fe2e1484-aa60-4a1e-9a37-906975002a54
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Opal Card API Client (cyclotron3k)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - JSESSIONID=B99D7FB19A09559CB6732D90DEADBEEF.cws03; incap_ses_436_565178=+N1zbSc5jlIOK3k8EP0MBu0BAl0AAAAAl6RpZMimU+RF+OsbIm7C8w==;
+        visid_incap_565178=W9CpfTfAQZSHfXrwY4HBme0BAl0AAAAAQUIPAAAAAACXO496mO8Ivar4johdSEPb
+      Host:
+      - www.opal.com.au
+      Referer:
+      - https://www.opal.com.au/
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '87'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Jun 2019 07:57:34 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Cache-Control:
+      - no-cache
+      - no-store
+      X-Responsetime:
+      - D=130191 microseconds to serve this request.
+      X-Id:
+      - '1'
+      Keep-Alive:
+      - timeout=5, max=100
+      Connection:
+      - Keep-Alive
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Iinfo:
+      - 10-111684121-111684122 NNNN CT(3 14 0) RT(1560412654037 6) q(0 0 0 -1) r(1
+        1) U6
+      X-Cdn:
+      - Incapsula
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAA/21QTU/DMAz9K1YugFRNfAiQeusqcRpsBy4cvcRrI9K4chzQhPjvpGp242Y/+/m95x/zhcE7VM/xBX3IQqZVydQYEmF5pZRwKJj54CywnzEAWss5KvgEx8D2k9wGuqAj52GEM2ewGCGpDwFyogWpRIvimqW/KqNI5EAZLEdFq+tGn5PyRAI9CgFHuHuAp2e4f4TrUu0P3e5m4eS46K6Xq5uNacypBCC348HHTpWmWU17wpDov1HqF5ppbxtTT2zXMJf8tnp5P88lf8whNGYuv3jL05Hkgkxlqx8xDnTAlL5ZXNX8/QP42W18WwEAAA==
+    http_version:
+  recorded_at: Thu, 13 Jun 2019 07:57:34 GMT
+recorded_with: VCR 4.0.0
