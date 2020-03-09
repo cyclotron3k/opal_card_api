@@ -99,6 +99,8 @@ transactions.lazy.select { |t| t[:mode] == 'train' }.first 5
 transactions.to_a
 ```
 
+Read the documentation for [Enumerable](https://ruby-doc.org/core-2.6/Enumerable.html) and [Enumerator](https://ruby-doc.org/core-2.6/Enumerator.html), to see all the things you can do with the Enumerator returned by `transactions`.
+
 If you have more than one card you'll probably want to specify which card to retrieve transactions for. The default behaviour (as illustrated above) is to show transactions for the first card in the card array returned by `OpalCardApi#cards`.
 
 To retrieve transactions for other cards, you must specify which one
